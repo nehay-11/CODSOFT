@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+    line-height: 1.6;
+}
+.navbar {
+    background-color: #1f2933;
+    padding: 15px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    color: #facc15;
+    font-size: 22px;
+    font-weight: bold;
+}
+.navbar nav a {
+    color: #f9fafb;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.navbar nav a:hover {
+    color: #facc15;
+}
+/*index*/
+.hero {
+    background: linear-gradient(120deg, #111827, #374151);
+    color: white;
+    padding: 80px 10%;
+    text-align: center;
+}
+.hero-text {
+    max-width: 700px;
+    margin: auto;
+}
+.hero-text h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+.hero-text p {
+    color: #d1d5db;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+.btn {
+    display: inline-block;
+    background-color: #facc15;
+    color: #1f2933;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.features {
+    background: white;
+    padding: 60px 10%;
+}
+
+.features h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 28px;
+}
+
+.feature-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: #f9fafb;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #4b5563;
+}
+/*about,contact,services*/
+.page-hero {
+    background: linear-gradient(120deg, #111827, #374151);
+    color: white;
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.page-hero h1 {
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+
+.page-hero p {
+    color: #e5e7eb;
+}
+.content {
+    background:whitesmoke;
+    padding: 50px 12%;
+}
+.info-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+.info-card {
+   background: rgb(180, 205, 254);
+    padding: 22px;
+    border-radius: 12px;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.05);
+}
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.service-card {
+    background: rgb(180, 205, 254);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 22px rgba(0,0,0,0.06);
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-6px);
+}
+
+.service-card h3 {
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    color: #4b5563;
+}
+footer {
+    background-color: #1f2933;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    margin-top: 40px;
+}
